@@ -1,8 +1,8 @@
 package com.example.construct.controller;
 
-import com.revise.shopee.model.User;
-import com.revise.shopee.model.dto.UserDto;
-import com.revise.shopee.service.UserService;
+import com.example.construct.model.User;
+import com.example.construct.model.dto.UserDto;
+import com.example.construct.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

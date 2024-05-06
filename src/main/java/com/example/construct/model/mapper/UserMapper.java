@@ -1,8 +1,8 @@
 package com.example.construct.model.mapper;
 
 
-import com.revise.shopee.model.User;
-import com.revise.shopee.model.dto.UserDto;
+import com.example.construct.model.User;
+import com.example.construct.model.dto.UserDto;
 
 public class UserMapper {
     public static UserDto userToUserDto(User user)

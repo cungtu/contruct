@@ -1,14 +1,15 @@
 package com.example.construct.service;
 
-import com.revise.shopee.model.User;
-import com.revise.shopee.model.dto.UserDto;
+
+import com.example.construct.model.User;
+import com.example.construct.model.dto.UserDto;
+import com.example.construct.model.mapper.UserMapper;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.revise.shopee.model.mapper.UserMapper.userToUserDto;
-
+import static com.example.construct.model.mapper.UserMapper.userToUserDto;
 
 @Component
 public class UserServiceImpl implements UserService {
