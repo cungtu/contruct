@@ -56,7 +56,7 @@ Put the required stylesheet at the [top](https://developer.yahoo.com/performance
 Put the script at the [bottom](https://developer.yahoo.com/performance/rules.html#js_bottom) of your markup right after jQuery:
 
 ```html
-<script src="/node_modules/jquery/dist/jquery.js"></script>
+<script th:src="@{/node_modules/jquery/dist/jquery.js"></script>
 <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
 ```
 
