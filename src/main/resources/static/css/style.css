@@ -203,7 +203,7 @@ h6 {
 
 #intro .intro-content h2 span {
   color: #50d8af;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 
 #intro .intro-content .btn-get-started,
@@ -1038,6 +1038,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .credits a {
   color: #0c2e8a;
+}
+
+.img-scrollto {
+  max-width: 100%;
+  width:150px;
+  height: auto;
+  object-fit: cover;
 }
 
 @media (min-width: 768px) {
